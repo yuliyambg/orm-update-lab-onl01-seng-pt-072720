@@ -13,4 +13,8 @@ def initialize(name, grade, id=nil)
 @grade = grade
 end
 
+
+def create_table
+end
+
 end
