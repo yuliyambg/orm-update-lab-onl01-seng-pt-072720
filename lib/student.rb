@@ -52,8 +52,7 @@ end
 
 
 def self.new_from_db(row)
-    new_student = self.new(row[0],row[1],row[2])
-    # new_student
+    self.new(row[0],row[1],row[2])
   end
 
 end
