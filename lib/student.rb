@@ -22,8 +22,9 @@ def self.create_table
   grade INTEGER
   )
   SQL
-  
   DB[:conn].execute(sql)
 end
+
+
 
 end
